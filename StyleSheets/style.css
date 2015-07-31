@@ -1,0 +1,52 @@
+body {
+  background-color: mediumpurple;
+  background-repeat: no-repeat;
+  background-image: url("https://pbs.twimg.com/profile_images/1974595305/firebase_branding_r4_FINAL_03.png");
+  background-position:  right center;    
+}
+
+P { 
+  text-align: left;
+  font-size: 75px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+span {
+  font-size: 20px;
+  font-family: fantasy;
+  color: yellow;
+}
+
+input {
+  height: 38px;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 2px 3px 3px #140214;
+  -webkit-box-shadow: 8px 6px 3px #0c010d;
+  -moz-box-shadow: 8px 6px 3px #0c010d;
+  box-shadow: 8px 6px 3px #0c010d;
+  font-family: fantasy;
+  color: #edea2b;
+  font-size: 20px;
+  background: #02090d;
+  padding: 10px 20px 10px 20px;
+  border: solid #edea2b 2px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: mediumpurple;
+  background-image: -webkit-linear-gradient(top, mediumpurple, #00080d);
+  background-image: -moz-linear-gradient(top, mediumpurple, #00080d);
+  background-image: -ms-linear-gradient(top, mediumpurple, #00080d);
+  background-image: -o-linear-gradient(top, mediumpurple, #00080d);
+  background-image: linear-gradient(to bottom, mediumpurple, #00080d);
+  text-decoration: none;
+}
